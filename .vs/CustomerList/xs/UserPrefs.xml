@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{61B8A0C6-CF86-45B6-8C2E-C0FBE9B197F9}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CustomerList PreferredExecutionTarget="/Users/amos/Downloads/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomerList/Models/Customer.cs">
+    <Files>
+      <File FileName="CustomerList/Data/ApplicationDbContext.cs" />
+      <File FileName="CustomerList/Models/Customer.cs" Line="15" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CustomerList" expanded="True">
+            <Node name="CustomerList" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Customer.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

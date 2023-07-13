@@ -1,0 +1,53 @@
+﻿@model Customer
+
+<form method="post" asp-action="Delete">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Customer</h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            <label asp-for="FirstName">First Name:</label>
+            <input asp-for="FirstName" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="LastName">Last Name:</label>
+            <input asp-for="LastName" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Email">Email:</label>
+            <input asp-for="Email" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Address">Address:</label>
+            <input asp-for="Address" disabled class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="IsActive">IsActive:</label>
+            <select asp-for="IsActive" disabled class="form-control">
+                <option value="True">True</option>
+                <option value="False">False</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CreatedAt">CreatedAt:</label>
+            <input asp-for="CreatedAt" class="form-control" readonly />
+        </div>
+
+
+        <button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
+        <a asp-controller="Customer" asp-action="Index" class="btn btn-primary" style="width:150px">
+            Cancel
+        </a>
+    </div>
+</form>
+
+@*allow validation on client*@
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
